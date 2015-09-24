@@ -1,0 +1,26 @@
+{
+    "version": "1.5.0-alpha",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "sourceMap": false,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./app.ts",
+        "./routes/index.ts",
+        "./typings/express/express.d.ts",
+        "./typings/htmlparser2/htmlparser2.d.ts",
+        "./typings/node/node.d.ts",
+        "./typings/stylus/stylus.d.ts"
+    ]
+}
